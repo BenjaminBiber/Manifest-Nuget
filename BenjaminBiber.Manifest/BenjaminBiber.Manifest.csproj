@@ -9,9 +9,10 @@
         <Version>1.0.0</Version>
         <Authors>Benjamin Biber</Authors>
         <RepositoryUrl>https://github.com/benjaminbiber/manifest-Nuget</RepositoryUrl>
-        <Description>Implementation of Manifest Backend</Description>
+        <PackageReadmeFile>README.md</PackageReadmeFile>
+        <Description>A Basic Implementation of the Manifest Backend for C#</Description>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
-        <PublishRepositoryUrl>false</PublishRepositoryUrl>
+        <PublishRepositoryUrl>true</PublishRepositoryUrl>
         <IncludeSymbols>true</IncludeSymbols>
         <SymbolPackageFormat>snupkg</SymbolPackageFormat>
     </PropertyGroup>
