@@ -1,0 +1,5 @@
+U:\Projects\RiderProjects\BenjaminBiber.Manifest\BenjaminBiber.Manifest\obj\Debug\net8.0\BenjaminBiber.Manifest.csproj.AssemblyReference.cache
+U:\Projects\RiderProjects\BenjaminBiber.Manifest\BenjaminBiber.Manifest\obj\Debug\net8.0\BenjaminBiber.Manifest.GeneratedMSBuildEditorConfig.editorconfig
+U:\Projects\RiderProjects\BenjaminBiber.Manifest\BenjaminBiber.Manifest\obj\Debug\net8.0\BenjaminBiber.Manifest.AssemblyInfoInputs.cache
+U:\Projects\RiderProjects\BenjaminBiber.Manifest\BenjaminBiber.Manifest\obj\Debug\net8.0\BenjaminBiber.Manifest.AssemblyInfo.cs
+U:\Projects\RiderProjects\BenjaminBiber.Manifest\BenjaminBiber.Manifest\obj\Debug\net8.0\BenjaminBiber.Manifest.csproj.CoreCompileInputs.cache

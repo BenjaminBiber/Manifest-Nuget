@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
+  <metadata>
+    <id>MyCompany.Caching</id>
+    <version>1.0.0</version>
+    <authors>Benjamin Biber</authors>
+    <license type="expression">MIT</license>
+    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
+    <description>Implementation of Manifest Backend</description>
+    <repository type="git" url="https://github.com/benjaminbiber/manifest-Nuget" />
+    <dependencies>
+      <group targetFramework="net8.0">
+        <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="8.0.0" exclude="Build,Analyzers" />
+        <dependency id="Microsoft.Extensions.Http" version="8.0.0" exclude="Build,Analyzers" />
+      </group>
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="U:\Projects\RiderProjects\BenjaminBiber.Manifest\BenjaminBiber.Manifest\bin\Release\net8.0\BenjaminBiber.Manifest.dll" target="lib\net8.0\BenjaminBiber.Manifest.dll" />
+  </files>
+</package>

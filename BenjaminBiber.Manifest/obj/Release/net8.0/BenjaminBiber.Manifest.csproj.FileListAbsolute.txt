@@ -1,0 +1,12 @@
+U:\Projects\RiderProjects\BenjaminBiber.Manifest\BenjaminBiber.Manifest\bin\Release\net8.0\BenjaminBiber.Manifest.deps.json
+U:\Projects\RiderProjects\BenjaminBiber.Manifest\BenjaminBiber.Manifest\bin\Release\net8.0\BenjaminBiber.Manifest.dll
+U:\Projects\RiderProjects\BenjaminBiber.Manifest\BenjaminBiber.Manifest\bin\Release\net8.0\BenjaminBiber.Manifest.pdb
+U:\Projects\RiderProjects\BenjaminBiber.Manifest\BenjaminBiber.Manifest\obj\Release\net8.0\BenjaminBiber.Manifest.csproj.AssemblyReference.cache
+U:\Projects\RiderProjects\BenjaminBiber.Manifest\BenjaminBiber.Manifest\obj\Release\net8.0\BenjaminBiber.Manifest.GeneratedMSBuildEditorConfig.editorconfig
+U:\Projects\RiderProjects\BenjaminBiber.Manifest\BenjaminBiber.Manifest\obj\Release\net8.0\BenjaminBiber.Manifest.AssemblyInfoInputs.cache
+U:\Projects\RiderProjects\BenjaminBiber.Manifest\BenjaminBiber.Manifest\obj\Release\net8.0\BenjaminBiber.Manifest.AssemblyInfo.cs
+U:\Projects\RiderProjects\BenjaminBiber.Manifest\BenjaminBiber.Manifest\obj\Release\net8.0\BenjaminBiber.Manifest.csproj.CoreCompileInputs.cache
+U:\Projects\RiderProjects\BenjaminBiber.Manifest\BenjaminBiber.Manifest\obj\Release\net8.0\BenjaminBiber.Manifest.dll
+U:\Projects\RiderProjects\BenjaminBiber.Manifest\BenjaminBiber.Manifest\obj\Release\net8.0\refint\BenjaminBiber.Manifest.dll
+U:\Projects\RiderProjects\BenjaminBiber.Manifest\BenjaminBiber.Manifest\obj\Release\net8.0\BenjaminBiber.Manifest.pdb
+U:\Projects\RiderProjects\BenjaminBiber.Manifest\BenjaminBiber.Manifest\obj\Release\net8.0\ref\BenjaminBiber.Manifest.dll
