@@ -1,1 +1,0 @@
-A Basic Implementation of the Manifest Backend for C#
