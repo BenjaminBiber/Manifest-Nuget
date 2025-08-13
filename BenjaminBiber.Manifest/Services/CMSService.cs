@@ -13,15 +13,16 @@ public class CmsService : ICmsService
         _cacheService = cacheService;
         _httpClient = httpClient;
     }
-
+    
     /// <summary>
-    /// Gets a Collection of Items from Manifest
+    /// Retrieves items from the cache if they exist; otherwise, fetches the data from the specified relative URL,
+    /// stores it in the cache, and returns the newly fetched items.
     /// </summary>
-    /// <param name="key"></param>
-    /// <param name="relativeUrl"></param>
-    /// <param name="ct"></param>
-    /// <typeparam name="T"></typeparam>
-    /// <returns></returns>
+    /// <typeparam name="T">The type of the items to retrieve or fetch.</typeparam>
+    /// <param name="key">The unique key identifying the cached items.</param>
+    /// <param name="relativeUrl">The relative URL to fetch the data from if it is not in the cache.</param>
+    /// <param name="ct">A cancellation token to observe while waiting for the operation to complete.</param>
+    /// <returns>A task that represents the asynchronous operation. The task result contains the retrieved or fetched items.</returns>
     public async Task<ResponseItem<T>> GetItems<T>(string key, string relativeUrl, CancellationToken ct = default)
     {
         return await _cacheService.GetOrAddAsync<ResponseItem<T>>(
@@ -36,11 +37,21 @@ public class CmsService : ICmsService
             ct: ct);
     }
 
+    /// <summary>
+    /// Fetches data from the specified relative URL and deserializes it into the specified type.
+    /// </summary>
+    /// <typeparam name="T">The type to which the fetched data will be deserialized.</typeparam>
+    /// <param name="relativeUrl">The relative URL to fetch the data from.</param>
+    /// <param name="ct">A cancellation token to observe while waiting for the operation to complete.</param>
+    /// <returns>
+    /// A task that represents the asynchronous operation. The task result contains an <see cref="ApiResult{T}"/> 
+    /// indicating whether the operation was successful and the fetched data or an error message.
+    /// </returns>
     private async Task<ApiResult<T>> GetData<T>(string relativeUrl, CancellationToken ct = default)
     {
         if (string.IsNullOrWhiteSpace(relativeUrl))
             return new ApiResult<T> { Success = false, Error = "relativeUrl is null or empty" };
-
+    
         try
         {
             var resp = await _httpClient.GetAsync(relativeUrl, ct);
@@ -50,7 +61,7 @@ public class CmsService : ICmsService
             System.Console.WriteLine(json);
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
             var data = JsonSerializer.Deserialize<T>(json, options);
-
+    
             return new ApiResult<T> { Success = true, Data = data! };
         }
         catch (Exception ex)

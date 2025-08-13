@@ -1,25 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "U:\\Projects\\RiderProjects\\BenjaminBiber.Manifest\\BenjaminBiber.Manifest\\BenjaminBiber.Manifest.csproj": {}
+    "/home/benjaminb/RiderProjects/Manifest-Nuget/BenjaminBiber.Manifest/BenjaminBiber.Manifest.csproj": {}
   },
   "projects": {
-    "U:\\Projects\\RiderProjects\\BenjaminBiber.Manifest\\BenjaminBiber.Manifest\\BenjaminBiber.Manifest.csproj": {
-      "version": "1.0.0",
+    "/home/benjaminb/RiderProjects/Manifest-Nuget/BenjaminBiber.Manifest/BenjaminBiber.Manifest.csproj": {
+      "version": "1.0.3",
       "restore": {
-        "projectUniqueName": "U:\\Projects\\RiderProjects\\BenjaminBiber.Manifest\\BenjaminBiber.Manifest\\BenjaminBiber.Manifest.csproj",
+        "projectUniqueName": "/home/benjaminb/RiderProjects/Manifest-Nuget/BenjaminBiber.Manifest/BenjaminBiber.Manifest.csproj",
         "projectName": "BenjaminBiber.Manifest",
-        "projectPath": "U:\\Projects\\RiderProjects\\BenjaminBiber.Manifest\\BenjaminBiber.Manifest\\BenjaminBiber.Manifest.csproj",
-        "packagesPath": "C:\\Users\\benjamin.biber\\.nuget\\packages\\",
-        "outputPath": "U:\\Projects\\RiderProjects\\BenjaminBiber.Manifest\\BenjaminBiber.Manifest\\obj\\",
+        "projectPath": "/home/benjaminb/RiderProjects/Manifest-Nuget/BenjaminBiber.Manifest/BenjaminBiber.Manifest.csproj",
+        "packagesPath": "/home/benjaminb/.nuget/packages/",
+        "outputPath": "/home/benjaminb/RiderProjects/Manifest-Nuget/BenjaminBiber.Manifest/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\benjamin.biber\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/benjaminb/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "/usr/share/dotnet/library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -63,12 +64,18 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.AspNetCore.App.Ref",
+              "version": "[8.0.14, 8.0.14]"
+            }
+          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.407/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

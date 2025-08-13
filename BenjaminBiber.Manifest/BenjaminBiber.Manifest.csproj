@@ -6,7 +6,7 @@
         <Nullable>enable</Nullable>
 
         <PackageId>BenjaminBiber.Manifest</PackageId>
-        <Version>1.0.3</Version>
+        <Version>1.0.4</Version>
         <Authors>Benjamin Biber</Authors>
         <RepositoryUrl>https://github.com/benjaminbiber/manifest-Nuget</RepositoryUrl>
         <PackageReadmeFile>README.md</PackageReadmeFile>

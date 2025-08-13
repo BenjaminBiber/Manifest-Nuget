@@ -12,12 +12,12 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("Benjamin Biber")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyDescriptionAttribute("Implementation of Manifest Backend")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d47a55b0276fa20ecb52bc397cd0fe6cb8fa87c7")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("A Basic Implementation of the Manifest Backend for C#")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.4.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.4+54a82b90f6a61596f844bf85541837cb1c852eb9")]
 [assembly: System.Reflection.AssemblyProductAttribute("BenjaminBiber.Manifest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BenjaminBiber.Manifest")]
-[assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("1.0.4.0")]
 [assembly: System.Reflection.AssemblyMetadataAttribute("RepositoryUrl", "https://github.com/benjaminbiber/manifest-Nuget")]
 
 // Von der MSBuild WriteCodeFragment-Klasse generiert.
