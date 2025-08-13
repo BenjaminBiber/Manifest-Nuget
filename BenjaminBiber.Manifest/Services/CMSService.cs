@@ -5,10 +5,10 @@ namespace BenjaminBiber.Manifest.Services;
 
 public class CmsService : ICmsService
 {
-    private readonly CacheService _cacheService;
+    private readonly ICacheService _cacheService;
     private readonly HttpClient _httpClient;
 
-    public CmsService(CacheService cacheService, HttpClient httpClient)
+    public CmsService(ICacheService cacheService, HttpClient httpClient)
     {
         _cacheService = cacheService;
         _httpClient = httpClient;
@@ -24,13 +24,16 @@ public class CmsService : ICmsService
     /// <returns></returns>
     public async Task<ResponseItem<T>> GetItems<T>(string key, string relativeUrl, CancellationToken ct = default)
     {
-        return await _cacheService.GetOrAddAsync<ResponseItem<T>>(key, async () =>
-        {
-            var result = await GetData<ResponseItem<T>>(relativeUrl, ct);
-            return result.Success && result.Data is not null
-                ? result.Data
-                : new ResponseItem<T>();
-        });
+        return await _cacheService.GetOrAddAsync<ResponseItem<T>>(
+            key,
+            async token =>
+            {
+                var result = await GetData<ResponseItem<T>>(relativeUrl, token);
+                return result.Success && result.Data is not null
+                    ? result.Data
+                    : new ResponseItem<T>();
+            },
+            ct: ct);
     }
 
     private async Task<ApiResult<T>> GetData<T>(string relativeUrl, CancellationToken ct = default)
@@ -40,10 +43,11 @@ public class CmsService : ICmsService
 
         try
         {
-            using var resp = await _httpClient.GetAsync(relativeUrl, ct);
+            var resp = await _httpClient.GetAsync(relativeUrl, ct);
             resp.EnsureSuccessStatusCode();
-
+            
             var json = await resp.Content.ReadAsStringAsync(ct);
+            System.Console.WriteLine(json);
             var options = new JsonSerializerOptions { PropertyNameCaseInsensitive = true };
             var data = JsonSerializer.Deserialize<T>(json, options);
 
