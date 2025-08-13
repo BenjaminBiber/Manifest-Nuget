@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyDescriptionAttribute("Implementation of Manifest Backend")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d47a55b0276fa20ecb52bc397cd0fe6cb8fa87c7")]
 [assembly: System.Reflection.AssemblyProductAttribute("BenjaminBiber.Manifest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BenjaminBiber.Manifest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

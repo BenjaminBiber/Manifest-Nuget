@@ -8,7 +8,7 @@
       "version": "1.0.0",
       "restore": {
         "projectUniqueName": "U:\\Projects\\RiderProjects\\BenjaminBiber.Manifest\\BenjaminBiber.Manifest\\BenjaminBiber.Manifest.csproj",
-        "projectName": "MyCompany.Caching",
+        "projectName": "BenjaminBiber.Manifest",
         "projectPath": "U:\\Projects\\RiderProjects\\BenjaminBiber.Manifest\\BenjaminBiber.Manifest\\BenjaminBiber.Manifest.csproj",
         "packagesPath": "C:\\Users\\benjamin.biber\\.nuget\\packages\\",
         "outputPath": "U:\\Projects\\RiderProjects\\BenjaminBiber.Manifest\\BenjaminBiber.Manifest\\obj\\",

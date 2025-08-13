@@ -12,9 +12,9 @@ using System.Reflection;
 
 [assembly: System.Reflection.AssemblyCompanyAttribute("Benjamin Biber")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
-[assembly: System.Reflection.AssemblyDescriptionAttribute("Implementation of Manifest Backend")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("A Basic Implementation of the Manifest Backend for C#")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+564272c1387a031f1c05463074fbca45960a3d2f")]
 [assembly: System.Reflection.AssemblyProductAttribute("BenjaminBiber.Manifest")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BenjaminBiber.Manifest")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

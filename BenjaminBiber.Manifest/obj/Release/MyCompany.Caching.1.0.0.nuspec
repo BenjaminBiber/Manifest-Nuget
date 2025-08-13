@@ -6,8 +6,9 @@
     <authors>Benjamin Biber</authors>
     <license type="expression">MIT</license>
     <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>
-    <description>Implementation of Manifest Backend</description>
-    <repository type="git" url="https://github.com/benjaminbiber/manifest-Nuget" />
+    <readme>README.md</readme>
+    <description>A Basic Implementation of the Manifest Backend for C#</description>
+    <repository type="git" url="https://github.com/benjaminbiber/manifest-Nuget" commit="564272c1387a031f1c05463074fbca45960a3d2f" />
     <dependencies>
       <group targetFramework="net8.0">
         <dependency id="Microsoft.Extensions.DependencyInjection.Abstractions" version="8.0.0" exclude="Build,Analyzers" />
@@ -17,5 +18,6 @@
   </metadata>
   <files>
     <file src="U:\Projects\RiderProjects\BenjaminBiber.Manifest\BenjaminBiber.Manifest\bin\Release\net8.0\BenjaminBiber.Manifest.dll" target="lib\net8.0\BenjaminBiber.Manifest.dll" />
+    <file src="U:\Projects\RiderProjects\BenjaminBiber.Manifest\BenjaminBiber.Manifest\README.md" target="README.md" />
   </files>
 </package>

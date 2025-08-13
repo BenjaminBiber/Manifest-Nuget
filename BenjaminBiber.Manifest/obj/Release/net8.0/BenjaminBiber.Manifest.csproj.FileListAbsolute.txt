@@ -10,3 +10,4 @@ U:\Projects\RiderProjects\BenjaminBiber.Manifest\BenjaminBiber.Manifest\obj\Rele
 U:\Projects\RiderProjects\BenjaminBiber.Manifest\BenjaminBiber.Manifest\obj\Release\net8.0\refint\BenjaminBiber.Manifest.dll
 U:\Projects\RiderProjects\BenjaminBiber.Manifest\BenjaminBiber.Manifest\obj\Release\net8.0\BenjaminBiber.Manifest.pdb
 U:\Projects\RiderProjects\BenjaminBiber.Manifest\BenjaminBiber.Manifest\obj\Release\net8.0\ref\BenjaminBiber.Manifest.dll
+U:\Projects\RiderProjects\BenjaminBiber.Manifest\BenjaminBiber.Manifest\obj\Release\net8.0\BenjaminBiber.Manifest.sourcelink.json
